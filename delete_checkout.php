@@ -1,0 +1,24 @@
+<?php 
+include("session.php");
+include("connection.php");
+include("privilege.php");
+$link = mysqli_connect("localhost", "root", "root123456", "group_03") // 建立MySQL的資料庫連結
+    or die("無法開啟MySQL資料庫連結!<br>");
+
+// 送出編碼的MySQL指令
+mysqli_query($link, 'SET CHARACTER SET utf8');
+mysqli_query($link, "SET collation_connection = 'utf8_unicode_ci'");
+
+$id = $_GET['id'];
+
+if ($result = mysqli_query($link, "DELETE FROM checkout where checkout_id ='$id'")){
+    if($pri == 2)
+        $url = "checkout.php";
+    else
+        $url = "checkout_admin.php";
+    header("Location:$url");
+}
+else{
+    echo $product;
+}
+?>
