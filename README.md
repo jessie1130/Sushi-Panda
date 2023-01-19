@@ -45,6 +45,15 @@
 * 可管理會員資料
 ![螢幕擷取畫面 2023-01-19 151735](https://user-images.githubusercontent.com/107569616/213379312-0c88e27b-0ee6-44cb-87ae-3b3e70272cd7.png)
 
+* 管理訂單
+![image](https://user-images.githubusercontent.com/107569616/213429836-dde2ec18-68dd-430d-9c4a-661449a80e4d.png)
+
 * 管理留言板
 ![image](https://user-images.githubusercontent.com/107569616/213379580-3b033d57-a3fb-456b-84de-c00528589035.png)
+
+* 管理商品
+![image](https://user-images.githubusercontent.com/107569616/213430053-fa508a7c-c91f-4ac6-8800-8dc11ad3eb4a.png)
+![image](https://user-images.githubusercontent.com/107569616/213430195-ae8f56fa-c7e4-4121-bfff-4944d9b3661a.png)
+
+
 
